@@ -43,6 +43,13 @@ public class NumberTest {
         }
         System.out.println("最小值：" + min);
 
+        print(10);
+    }
 
+    //循环打印5次数据
+    public static void print(int a){
+        for (int i = 0; i < a; i++) {
+            System.out.println("Hello,world!");
+        }
     }
 }
