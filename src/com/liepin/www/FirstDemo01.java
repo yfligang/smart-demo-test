@@ -45,6 +45,7 @@ public class FirstDemo01 {
         FirstDemo01 fd = new FirstDemo01(); //无参构造方法: 30
         //如果有无参构造方法，类的实力化不会调用有参构造方法.如果实力化时带参数，会调用带参数的方法
         FirstDemo01 fd1 = new FirstDemo01(100);
+        FirstDemo01 fd2 = new FirstDemo01(10,11);
         int[] array = {1,4,15,77,99};
         fd.reverse(array);
         fd.reverse01(array);
