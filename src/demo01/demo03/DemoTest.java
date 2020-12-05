@@ -7,5 +7,11 @@ public class DemoTest {
          */
         //Cat cat = new Cat();
 
+        Dog dog = new Dog();
+        dog.eat();
+        dog.sleep();
+        //子类可以调用父类中的方法
+        dog.method();
+
     }
 }
