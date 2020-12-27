@@ -1,6 +1,6 @@
 package com.liepin.www.demo01;
 
-public class Demp01<T> {
+public class Demp01 {
 
     public void method1(String str){
         System.out.println(str);
