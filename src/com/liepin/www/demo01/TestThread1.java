@@ -31,12 +31,15 @@ public class TestThread1 implements Runnable {
         TestThread1 tt2 = new TestThread1("https://b.bdstatic.com/searchbox/icms/searchbox/img/blue-v.png","2.png");
         TestThread1 tt3 = new TestThread1("https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons/a7.png","3.png");
 
-        Thread t1 = new Thread(tt1);
-        t1.start();
+//        Thread t1 = new Thread(tt1);
+//        t1.start();
         Thread t2 = new Thread(tt2);
         t2.start();
         Thread t3 = new Thread(new TestThread1("https://dss1.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/weather/icons/a7.png","3.png"));
         t3.start();
+
+        //上面的代码可以简化为
+        new Thread(tt1).start();
     }
 
 }
