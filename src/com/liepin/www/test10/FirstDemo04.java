@@ -1,4 +1,4 @@
-package com.liepin.www;
+package com.liepin.www.test10;
 
 public class FirstDemo04 {
     //定义成员变量

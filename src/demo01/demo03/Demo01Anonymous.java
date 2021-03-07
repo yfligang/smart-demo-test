@@ -1,4 +1,4 @@
-package demo01;
+package demo01.demo03;
 
 public class Demo01Anonymous {
 
