@@ -31,7 +31,7 @@ public class Learn0002 {
     public static void testSplitUpdate02(){
         String s = "boo:and:foo";
 
-        String[] strArray = s.split("o",2);
+        String[] strArray = s.split("o",4);
         for (int i = 0; i < strArray.length; i++) {
             System.out.println(strArray[i]);
         }
