@@ -6,7 +6,9 @@ public class Learn0002 {
     public static void main(String[] args){
         //testSplit();
         //testSplitUpdate01();
-        testSplitUpdate02();
+        //testSplitUpdate02();
+        Learn0002 learn0002 = new Learn0002();
+        learn0002.testSplit01();
     }
 
     public static void testSplit(){
@@ -36,4 +38,14 @@ public class Learn0002 {
             System.out.println(strArray[i]);
         }
     }
+
+    public static void testSplit01(){
+        String s1 = "Hello,world!";
+        String s2 = "Cool";
+
+        String str = s1 + String.join("," + s2);
+        System.out.println(str);
+    }
+
+
 }
