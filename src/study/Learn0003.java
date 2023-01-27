@@ -8,5 +8,6 @@ public class Learn0003 {
         Learn0002.testSplit();
         Learn0002.testSplitUpdate01();
         Learn0002.testSplitUpdate02();
+        System.out.println("20230127");
     }
 }
